@@ -1,0 +1,90 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)) ,url("mainbg.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.wrapper{
+    margin:auto;
+}
+.nav-area{
+    float:right;
+    list-style: none;
+    margin-top: 32px;
+}
+
+.mainlink{
+    display: inline-block;
+    position: relative;
+}
+.mainlink>a{
+    color:#ffffff;
+    text-decoration: none;
+    padding: 5px 50px;
+    font-size: 150%;
+    margin-bottom: 20px;
+}
+.mainlink>a:hover{
+    background: #ffffff;
+    color: #000000;
+}
+.inner-list{
+    display:none;
+    position: absolute;
+}
+
+.sublink{
+    list-style: none;
+    margin: 5px 0px;
+    width: 200px;
+}
+.sublink>a{
+    color: #e2dddd;
+    padding: 1px 10px;
+    font-size: 130%;
+    text-decoration: none;
+    text-align: center;
+}
+.sublink>a:hover{
+    background: #ffffff;
+    color: #000000;
+}
+
+.mainlink:hover .inner-list{
+    display:block;
+}
+
+.main-text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    margin: 25% 30%;
+    text-transform: uppercase;
+}
+.main-text h1{
+    text-align: center;
+    font-size: 40px;
+    color:#ffffff;
+}
+.main-text a{
+    border: 1px solid #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    color:#ffffff;
+}
+.main-text a:hover{
+    background: #ffffff;
+    color: #000000;
+
+}
