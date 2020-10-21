@@ -251,3 +251,6 @@ html, body{
 .state-product-wrapper .product-list{
     margin-left: 280px;
 }
+.product-category-info .product-id{
+    display:none
+}
