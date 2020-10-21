@@ -151,29 +151,6 @@ html, body{
 
 }
 
-/*.products{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.products li{
-    margin: 10px;
-    height: 380px;
-    padding:0;   
-}
-
-.product-image{
-    max-width: 300px;
-    max-height: 270px;
-}
-.product-name{
-    font-size: 25px;
-}
-.product-price{
-    font-size: 20px;
-}
-*/
-
 .header{
     margin:auto;
     width: 100%;
@@ -253,4 +230,7 @@ html, body{
 }
 .product-category-info .product-id{
     display:none
+}
+.product-category-info>div{
+    padding: 1px;
 }
