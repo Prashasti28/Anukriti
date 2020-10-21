@@ -3,56 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Name</title>
+    <title>HomePage</title>
     <link rel="stylesheet" href="css\style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+    <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+        $("#headercontent").load("header.html"); 
+        $("#footercontent").load("footer.html"); 
+    });
+    </script>
 </head>
 <body>
-    <header>
+       <div id="headercontent"></div>
+        
         <div class="wrapper">
-            <ul class="nav-area">
-                <li class="mainlink"><a href="index.html">Home</a></li>
-                <li class="mainlink"><a href="#">Products</a>
-                    <ul class="inner-list">
-                        <li class="sublink" style="margin-top: 10px;"><a href="#">Andhra Pradesh</a></li>
-                        <li class="sublink"><a href="#">Assam</a></li>
-                        <li class="sublink"><a href="#">Gujarat</a></li>
-                        <li class="sublink"><a href="#">Himachal Pradesh</a></li>
-                        <li class="sublink"><a href="#">Jammu & Kashmir</a></li>
-                        <li class="sublink"><a href="#">Karnataka</a></li>
-                        <li class="sublink"><a href="#">Kerala</a></li>
-                        <li class="sublink"><a href="#">Rajasthan</a></li>
-                        <li class="sublink"><a href="#">Telangana</a></li>
-                        <li class="sublink"><a href="#">Uttar Pradesh</a></li>
-                    </ul></li>
-                <li class="mainlink"><a href="#">Account</a>
-                    <ul class="inner-list">
-                        <li class="sublink" style="margin-top: 10px;"><a href="#">Edit Profile</a></li>
-                        <li class="sublink"><a href="#">Orders</a></li>
-                        <li class="sublink"><a href="#">Cart</a></li>
-                        <li class="sublink"><a href="#">Wishlist</a></li>
-                    </ul>
-                </li>
-                <li class="mainlink"><a href="#">About</a></li>
-                <li class="mainlink" style="padding-right: 50px;"><a href="#">Contact Us</a></li>
-            </ul>
+            <div class="main-text">
+                <h1>Welcome to India</h1>
+                <a href="products.html">Browse</a>
+            </div>
         </div>
 
-        <div class="main-text">
-            <h1>Welcome to India</h1>
-            <a href="">Browse</a>
-        </div>
-    </header>
-
-
-
-
-
-
-
-
-
-
-
-    <script src="https://kit.fontawesome.com/d39ee9acdd.js" crossorigin="anonymous"></script>
-</body>
+        <!-- <div id="footercontent"></div> -->
+    </body>
 </html>
