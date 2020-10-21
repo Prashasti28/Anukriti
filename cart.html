@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart</title>
+    <link rel="stylesheet" href="css/myaccount.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+    <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+        $("#headercontent").load("header.html"); 
+        $("#sidebarcontent").load("sidebar.html");
+    });
+    </script> 
+</head>
+<body>
+
+    <div id="headercontent"></div>
+    <!-- <div id ="sidebarcontent"></div> -->
+    <div class="wrapper">
+        <section class="main-box cw-box cart-box">
+            <h1>Cart</h1>
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="https://cdn.shopify.com/s/files/1/1671/4363/products/first_MG_9731_1024x1024.jpg?v=1592652581" alt="product image">      
+                            <div>
+                                <p>Product Name</p>
+                                <small>Price: Rs. 5000.00</small><br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input class="qty-input" type="number" value="1"></td>
+                    <td>Rs. 5000.00</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="https://cdn.shopify.com/s/files/1/1671/4363/products/first_MG_9731_1024x1024.jpg?v=1592652581" alt="product image">      
+                            <div>
+                                <p>Product Name</p>
+                                <small>Price: Rs. 5000.00</small><br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input class="qty-input" type="number" value="1"></td>
+                    <td>Rs. 5000.00</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="https://cdn.shopify.com/s/files/1/1671/4363/products/first_MG_9731_1024x1024.jpg?v=1592652581" alt="product image">      
+                            <div>
+                                <p>Product Name</p>
+                                <small>Price: Rs. 5000.00</small><br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input class="qty-input" type="number" value="1"></td>
+                    <td>Rs. 5000.00</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="https://cdn.shopify.com/s/files/1/1671/4363/products/first_MG_9731_1024x1024.jpg?v=1592652581" alt="product image">      
+                            <div>
+                                <p>Product Name</p>
+                                <small>Price: Rs. 5000.00</small><br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input class="qty-input" type="number" value="1"></td>
+                    <td>Rs. 5000.00</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="https://cdn.shopify.com/s/files/1/1671/4363/products/first_MG_9731_1024x1024.jpg?v=1592652581" alt="product image">      
+                            <div>
+                                <p>Product Name</p>
+                                <small>Price: Rs. 5000.00</small><br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input class="qty-input" type="number" value="1"></td>
+                    <td>Rs. 5000.00</td>
+                </tr>
+            </table>
+            <div class="total-price">
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>Rs. 5000.00 </td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>Rs. 5000.00</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>Rs. 5000.00 </td>
+                    </tr>
+                </table>
+            </div>
+
+
+
+
+
+
+
+
+        
+    </section>
+    </div>
+
+    <div id="footercontent"></div>
+</body>
+</html>
