@@ -184,26 +184,31 @@ html, body{
 }
 .product-wrapper>h1{
     position: relative;
-    margin-left: 600px;
+    margin-left: 400px;
     font-weight: 500;
     border-bottom: 2px solid #ffffff;
     text-shadow: 2px 2px#074c69;
+
 }
 .product-main-menu{
     position: absolute;
-    top: 40px;
+    top: 90px;
     left: 50px;
-    margin: 50px 0px;
+    margin-bottom: 100px;
     display:grid;
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: left;
 }
 .product-main-menu .product-category{
     border-radius: 0px;
     padding: 10px;
     background: rgba(0, 0, 0, 0.7);
     border-radius: 3px;
+    max-width: 300px;
 }
 .product-category-info{
     text-align: center;
@@ -233,4 +238,16 @@ html, body{
 .category-btn:hover{
     width: 150px;
     border-color: lightseagreen;
+}
+
+/* States */
+.product-list{
+    left: 20%;
+}
+.state-product-wrapper>h1{
+    top:20px;
+    left: 80px;
+}
+.state-product-wrapper .product-list{
+    margin-left: 280px;
 }
