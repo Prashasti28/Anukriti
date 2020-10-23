@@ -216,6 +216,11 @@ html, body{
     border-color: lightseagreen;
 }
 
+.about-page{
+     text-align: center;
+}
+    
+
 /* States */
 .product-list{
     left: 20%;
