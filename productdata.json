@@ -1,0 +1,179 @@
+[{
+  "_id": {
+    "$oid": "5f901a35d20f2f354c0fd33a"
+  },
+  "Product ID": "10001",
+  "Product name": "Handmade Decorative Soft Stone Vase",
+  "Description": "Intricately carved and beautifully designed marble vase/showpeice. Carved by the hands of the skilled artisans of rural Uttar Pradesh.",
+  "Category": "Uttar Pradesh",
+  "Price": "799",
+  "Rating": "4.83/5",
+  "Reviews": "37"
+},{
+  "_id": {
+    "$oid": "5f90207962db9869b237ad47"
+  },
+  "Product ID": "10002",
+  "Product name": "Hand Crafted Soapstone Tea Light Holder with Floral Carving",
+  "Description": "Antique Mauve tea light holder with an exquisite floral outer covering, carved by rural hands of Agra. It is a wonderful addition to the interoir decor of your abode",
+  "Category": "Uttar Pradesh",
+  "Price": "680",
+  "Rating": "4.22/5",
+  "Reviews": "40"
+},{
+  "_id": {
+    "$oid": "5f902ccaf156218e9db8dea5"
+  },
+  "Product ID": 20001,
+  "Product name": "Mughal Handmade Ceramic Dinner Set, Set of 37 Pieces",
+  "Description": "Royal Blue Mughal handpainted dinnerset of 37 peices. Made from stoneware by the ceramists of Jaipur.",
+  "Category": "Rajhasthan",
+  "Price": {
+    "$numberDecimal": "2399"
+  },
+  "Rating": "4.89/5",
+  "Reviews": 57
+},{
+  "_id": {
+    "$oid": "5f902cfaf156218e9db8dea6"
+  },
+  "Product ID": "20002",
+  "Product name": "Blue ceramic platter",
+  "Description": "Designed exclusively by rural Rajhasthani artisans, our Blue Ceramic Platter will bring in elegance to your table and colour to your parties. Serve up some knick-knacks on this elegant platter to create a modern tablescape in your house!",
+  "Category": "Rajhasthan",
+  "Price": "2698",
+  "Rating": "4.3/5",
+  "Reviews": "40"
+},{
+  "_id": {
+    "$oid": "5f9033e7f156218e9db8dea7"
+  },
+  "Product ID": "30001",
+  "Product name": "Handmade Paper Mache Kashmiri Shikara",
+  "Description": "Beautifully hand crafted shikara which encapusulates the feeling of boating on the surreal Dal lake in Kashmir. Made with a wooden base and decorated with paper mache, this shikara is one of the most famous local artifacts from Kashmir. Add to your room, the finely crafted paper mache art from Kashmir ",
+  "Category": "Jammu & Kashmir",
+  "Price": "1200",
+  "Rating": "3.89/5",
+  "Reviews": "32"
+},{
+  "_id": {
+    "$oid": "5f9033e7f156218e9db8dea8"
+  },
+  "Product ID": "30002",
+  "Product name": "Blue and Golden Paper Mache boxes (set of 4)",
+  "Description": "Enriched with a golden bloom of flowers, this Paper Mache box set is designed for those who love to transform their interiors with an artsy touch. The box can be used for storing precious jewellery and chattels.",
+  "Category": "Jammu & Kashmir",
+  "Price": "1400",
+  "Rating": "4.7/5",
+  "Reviews": "48"
+},{
+  "_id": {
+    "$oid": "5f903adaf156218e9db8dea9"
+  },
+  "Product ID": "40001",
+  "Product name": "Machilipatnam Kalamkari Saree",
+  "Description": "Vegetable dye block printing fabric skillfully created by the artisans of Andhra Pradesh, this saree epitomizes the skill and beauty of the kalamkari print.",
+  "Category": "Andhra Pradesh",
+  "Price": "1300",
+  "Rating": "4.35/5",
+  "Reviews": "45"
+},{
+  "_id": {
+    "$oid": "5f903adaf156218e9db8deaa"
+  },
+  "Product ID": "40002",
+  "Product name": "Machalipatnam Kalamkari Scarf",
+  "Description": "Carefully crafted and printed by the artisans of rural Andhra- this Machilipatnam Kalamkari scarf has an absolutely gorgeous design. The attractive prints and fabulous colors definitely make this scarf a must buy!",
+  "Category": "Andhra Pradesh",
+  "Price": "985",
+  "Rating": "4.98/5",
+  "Reviews": "50"
+},{
+  "_id": {
+    "$oid": "5f90455bf156218e9db8deab"
+  },
+  "Product ID": "50001",
+  "Product name": "Screw Pine Colorful Designer Sandals",
+  "Description": "These chic and cute sandals are a perfect combination of modern and classical style. Purchase this pair of cute sandals which are specially crafted by the ocal artisans of Kerala!",
+  "Category": "Kerala",
+  "Price": "1200",
+  "Rating": "4.01/5",
+  "Reviews": "40"
+},{
+  "_id": {
+    "$oid": "5f90455bf156218e9db8deac"
+  },
+  "Product ID": "50002",
+  "Product name": "Colorful Screw Pine Tablemats (Set of 4)",
+  "Description": "Carefully crafted and woven together by the craftsmen of Kerala, these colorful tablemats are a perfect addition to your dinnertable! The use of natural dye and palm leaf, create a unique screw pine design",
+  "Category": "Kerala",
+  "Price": "1290",
+  "Rating": "4.98/5",
+  "Reviews": "50"
+},{
+  "_id": {
+    "$oid": "5f904d59f156218e9db8dead"
+  },
+  "Product ID": "60001",
+  "Product name": "Blue floral designed Chambal Handkerchief",
+  "Description": "Created in the hilly regions of Himachal by the skillful local artisans, this blue Chambal handkerchief is a symbol of the hard work and determination of the artisans. This delicate handkerchief fabric is the local favourite of all the tourists visiting the region. ",
+  "Category": "Himachal Pradesh",
+  "Price": "670",
+  "Rating": "3.01/5",
+  "Reviews": "46"
+},{
+  "_id": {
+    "$oid": "5f904d59f156218e9db8deae"
+  },
+  "Product ID": "60002",
+  "Product name": "Red peaccock Chambal Wall Hanging ",
+  "Description": "This beautiful Chambal wall hanging, with two elegant peacocks on the side will be a lovely addition to your humble abode. The Chambal fabric is one of the most renowned fabrics made by the local artisans of Himachal Pradesh.",
+  "Category": "Himachal Pradesh",
+  "Price": "599",
+  "Rating": "3.25/5",
+  "Reviews": "29"
+},{
+  "_id": {
+    "$oid": "5f905b0ff156218e9db8deaf"
+  },
+  "Product ID": "70001",
+  "Product name": "Set of 3 Designed Sankheda Stools",
+  "Description": "Made out of the sturdy Sankheda wood, this set of 3 designed stools will definitely be a great addition to your house decor. A perfect mix of the rustic and modern style- these stools are a very popular selling item in Gujarat.",
+  "Category": "Gujarat",
+  "Price": "1670",
+  "Rating": "4.01/5",
+  "Reviews": "46"
+},{
+  "_id": {
+    "$oid": "5f905b0ff156218e9db8deb0"
+  },
+  "Product ID": "70002",
+  "Product name": "Teak wood Gods Temple ",
+  "Description": "This beautiful temple created by teak wood, known as Sankheda wood, is intricately crafted by the local artisans from the town of Sankheda in Gujarat. The splendid architecture of the temple makes it one of the most popular items of Sankheda furniture.",
+  "Category": "Gujarat",
+  "Price": "3599",
+  "Rating": "4.89/5",
+  "Reviews": "22"
+},{
+  "_id": {
+    "$oid": "5f905be5f156218e9db8deb1"
+  },
+  "Product ID": "80001",
+  "Product name": "Peach Muga silk Indian Clutch",
+  "Description": "Made by the local Assamese artisans, this splendid pink clutch is made of Muga Silk, which is a renowned local fabric of the region. This Indian clutch is a good accesory to use on any festive occassion and with amy clothes.",
+  "Category": "Assam",
+  "Price": "1580",
+  "Rating": "4.81/5",
+  "Reviews": "50"
+},{
+  "_id": {
+    "$oid": "5f905be5f156218e9db8deb2"
+  },
+  "Product ID": "80002",
+  "Product name": "Hand stitched Green Muga silk Beadspread",
+  "Description": "This Muga Silk beadspread is delicately and intricately stitched by the local craftsmen of the region. The perfect blend of colours make this bedspread a splendid part of your home",
+  "Category": "Assam",
+  "Price": "1299",
+  "Rating": "2.89/5",
+  "Reviews": "32"
+}]
