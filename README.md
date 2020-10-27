@@ -1,5 +1,6 @@
-# AP_1_Project
-Resources Used: Resources provided on the course website only
-For VSCode, running locally using line server or running locally using sublime's SFTP server. 
-Nodemon is need to be downloaded for server. 
-Command to be used 'npm run dev'
+# Anukriti
+The project required usage of HTML/CSS, node.js(express) and mongodb.
+Environments used: npm(mongoose, )
+We have coded everything in frontend.
+For backend, we referred videos available on the course website only.
+For wishlist and cart feature, we had to refer other youtube videos. 
