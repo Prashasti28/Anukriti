@@ -1,0 +1,165 @@
+<%- include('partials/header') %>
+
+<head>
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/album/">
+  <link href="/docs/4.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+    .jumbotron {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      margin-bottom: 0;
+      background-color: #fff;
+    }
+    @media (min-width: 768px) {
+      .jumbotron {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+      }
+    }
+    .jumbotron p:last-child {
+      margin-bottom: 0;
+    }
+    .jumbotron h1 {
+      font-weight: 300;
+    }
+    .jumbotron .container {
+      max-width: 40rem;
+    }
+    footer {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+    footer p {
+      margin-bottom: .25rem;
+    }
+  </style>
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<%- include('navbar') %>
+
+<body>
+  <div class="album py-5 bg-light">
+    <h1 class="display-4 heading" style="margin-top:0; color: #000;">Our Product Catalog</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="images/andhra.jpg" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">Andhra Pradesh</h4>
+              <h5 class="card-title">Machilipatnam Kalamkari</h5>
+              <a class="btn btn-dark" href="/andhra" role="button">Browse</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="images/assam.jpg" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">Assam</h4>
+              <h5 class="card-title">Muga Silk</h5>
+              <a class="btn btn-dark" href="/assam" role="button">Browse</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="images/gujarat.jpg" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">Gujarat</h4>
+              <h5 class="card-title">Sankheda Furniture</h5>
+              <a class="btn btn-dark" href="/gujarat" role="button">Browse</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="images/himachal.jpg" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">Himachal Pradesh</h4>
+              <h5 class="card-title">Chamba Rumal</h5>
+              <a class="btn btn-dark" href="/himachal" role="button">Browse</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="images/j&k.jpg" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">Jammu & Kashmir</h4>
+              <h5 class="card-title">Kashmir Papier-Mâché</h5>
+              <a class="btn btn-dark" href="/jk" role="button">Browse</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="images/karnataka.jpg" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">Karnataka</h4>
+              <h5 class="card-title">Bidriware</h5>
+              <a class="btn btn-dark" href="/karnataka" role="button">Browse</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="images/kerala.jpg" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">Kerala</h4>
+              <h5 class="card-title">Screw Pine Craft</h5>
+              <a class="btn btn-dark" href="/kerala" role="button">Browse</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="images/rajasthan.jpg" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">Rajasthan</h4>
+              <h5 class="card-title">Jaipur Blue Pottery</h5>
+              <a class="btn btn-dark" href="/rajasthan" role="button">Browse</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="images/uttar.jpg" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">Uttar Pradesh</h4>
+              <h5 class="card-title">Agra Stone Carving</h5>
+              <a class="btn btn-dark" href="/uttar" role="button">Browse</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <%- include('partials/footer') %>

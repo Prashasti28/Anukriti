@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+}
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+.nav-item{
+  margin: 0 10px;
+}
+.signup-body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../images/mainbg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 360px;
+  padding: 15px;
+  margin: 20px;
+  margin: auto;
+  border: solid 2px;
+  background-color: rgba(245, 245, 245, 0.75);
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.product-page{
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../images/mainbg5.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+.heading{
+  text-align: center;
+  border-bottom: 1px solid #ffffff;
+  margin-top: 20px;
+  font-size: 50px;
+  padding-bottom: 5px;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+.category-description{
+  margin: 0 auto;
+  text-align: center;
+  width: 60%;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+}
+.card-deck {
+  margin-top: 30px;
+  margin-left: 23%;
+  padding-bottom: 50px;
+}
+.card{
+  border-color: #000000;
+}
+.card-body{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.card .product-image{
+  margin: 5% auto;
+  border: solid 1px;
+  width: 90%;
+}
+.btn-product{
+  margin-bottom: 10px;
+}
+/* .carousel-control-next, .carousel-control-prev{
+  opacity: 1;
+} */
