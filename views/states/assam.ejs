@@ -30,14 +30,19 @@
       </a>
       </div>
       <div class="card-body">
-        <h5 class="card-title product-name">Card title</h5>
-        <div class="card-text product-price"><p></p></div>
-        <div class="card-text product-description"><p></p></div>
+        <h5 class="card-title product-name">Muga Silk Saree</h5>
+        <div class="card-text product-price"><p>Rs. 1800</p></div>
+        <div class="card-text product-description"><p>Care Instructions: Dry Clean Only, Length 5.5M-Width 1.6M , With Blouse Piece</p></div>
         <div class="card-text ratings"><p></p></div>
         <div class="card-text reviews"><p></p></div>
-        <div  style="display:none;" class="product-id"><p></p></div>
-        <a href="#" class="btn btn-info btn-product">Add to Cart</a>
-        <a href="#" class="btn btn-info btn-product">Add to Wishlist</a>
+        <form action="/add-to-cart" method="post">
+          <input name="product_id" type="hidden" value="2" />
+          <button type="submit" class="btn btn-info btn-product">Add to Cart</button>
+        </form>
+        <form action="/add-to-wishlist" method="post">
+          <input name="product_id" type="hidden" value="2" />
+          <button type="submit" class="btn btn-info btn-product">Add to Wishlist</button>
+        </form>
       </div>
     </div>
     <div class="card text-white bg-dark" style="max-width: 350px;">
@@ -60,14 +65,19 @@
       </a>
       </div>
       <div class="card-body">
-        <h5 class="card-title product-name">Card title</h5>
-        <div class="card-text product-price"><p></p></div>
-        <div class="card-text product-description"><p></p></div>
+        <h5 class="card-title product-name">Muga Silk Pouch</h5>
+        <div class="card-text product-price"><p>Rs. 950</p></div>
+        <div class="card-text product-description"><p>Dimensions: 7.6 x 5.1 x 5.1 centimeters, Weight: 20 grams</p></div>
         <div class="card-text ratings"><p></p></div>
         <div class="card-text reviews"><p></p></div>
-        <div  style="display:none;" class="product-id"><p></p></div>
-        <a href="#" class="btn btn-info btn-product">Add to Cart</a>
-        <a href="#" class="btn btn-info btn-product">Add to Wishlist</a>
+        <form action="/add-to-cart" method="post">
+          <input name="product_id" type="hidden" value="3" />
+          <button type="submit" class="btn btn-info btn-product">Add to Cart</button>
+        </form>
+        <form action="/add-to-wishlist" method="post">
+          <input name="product_id" type="hidden" value="3" />
+          <button type="submit" class="btn btn-info btn-product">Add to Wishlist</button>
+        </form>
       </div>
     </div>
 </div>

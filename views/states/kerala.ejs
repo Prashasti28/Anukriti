@@ -13,27 +13,37 @@
     <div class="card text-white bg-dark" style="max-width: 350px;">
       <img src="https://www.gitagged.com/wp-content/uploads/2018/05/Breathable-Sandals-2-233x233.jpg" class="d-block product-image">
       <div class="card-body">
-        <h5 class="card-title product-name">Card title</h5>
-        <div class="card-text product-price"><p></p></div>
-        <div class="card-text product-description"><p></p></div>
+        <h5 class="card-title product-name">Breathable Sandals</h5>
+        <div class="card-text product-price"><p>Rs .</p></div>
+        <div class="card-text product-description"><p>Dimensions: L - 26 inches, H – 4 inches, Weight: 70g, Suitability: Indoors & beachwear</p></div>
         <div class="card-text ratings"><p></p></div>
         <div class="card-text reviews"><p></p></div>
-        <div  style="display:none;" class="product-id"><p></p></div>
-        <a href="#" class="btn btn-info btn-product">Add to Cart</a>
-        <a href="#" class="btn btn-info btn-product">Add to Wishlist</a>
+        <form action="/add-to-cart" method="post">
+          <input name="product_id" type="hidden" value="12" />
+          <button type="submit" class="btn btn-info btn-product">Add to Cart</button>
+        </form>
+        <form action="/add-to-wishlist" method="post">
+          <input name="product_id" type="hidden" value="12" />
+          <button type="submit" class="btn btn-info btn-product">Add to Wishlist</button>
+        </form>
       </div>
     </div>
     <div class="card text-white bg-dark" style="max-width: 350px;">
       <img src="https://healthyliving.natureloc.com/wp-content/uploads/2018/04/Screw-Pine-Products-NatureLoC-Buy-Online-2.jpg" class="d-block product-image">
       <div class="card-body">
-        <h5 class="card-title product-name">Card title</h5>
-        <div class="card-text product-price"><p></p></div>
-        <div class="card-text product-description"><p></p></div>
+        <h5 class="card-title product-name">Screw Pine Mats</h5>
+        <div class="card-text product-price"><p>Rs. 700</p></div>
+        <div class="card-text product-description"><p>Mat Dimensions = L - 95 cm, W - 25 cm, H - 1 cm</p></div>
         <div class="card-text ratings"><p></p></div>
         <div class="card-text reviews"><p></p></div>
-        <div  style="display:none;" class="product-id"><p></p></div>
-        <a href="#" class="btn btn-info btn-product">Add to Cart</a>
-        <a href="#" class="btn btn-info btn-product">Add to Wishlist</a>
+        <form action="/add-to-cart" method="post">
+          <input name="product_id" type="hidden" value="13" />
+          <button type="submit" class="btn btn-info btn-product">Add to Cart</button>
+        </form>
+        <form action="/add-to-wishlist" method="post">
+          <input name="product_id" type="hidden" value="13" />
+          <button type="submit" class="btn btn-info btn-product">Add to Wishlist</button>
+        </form>
       </div>
     </div>
 </div>

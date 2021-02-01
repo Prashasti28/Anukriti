@@ -33,14 +33,19 @@
       </a>
       </div>
       <div class="card-body">
-        <h5 class="card-title product-name">Card title</h5>
-        <div class="card-text product-price"><p></p></div>
-        <div class="card-text product-description"><p></p></div>
+        <h5 class="card-title product-name">Blue & White Wall Plate</h5>
+        <div class="card-text product-price"><p>Rs. 1500</p></div>
+        <div class="card-text product-description"><p>Purely decorative, this wall plate comes with a hook behind to hang on the wall, wipe with soft, dry cloth. Diameter - 26cm. Weight - 600g</p></div>
         <div class="card-text ratings"><p></p></div>
         <div class="card-text reviews"><p></p></div>
-        <div  style="display:none;" class="product-id"><p></p></div>
-        <a href="#" class="btn btn-info btn-product">Add to Cart</a>
-        <a href="#" class="btn btn-info btn-product">Add to Wishlist</a>
+        <form action="/add-to-cart" method="post">
+          <input name="product_id" type="hidden" value="14" />
+          <button type="submit" class="btn btn-info btn-product">Add to Cart</button>
+        </form>
+        <form action="/add-to-wishlist" method="post">
+          <input name="product_id" type="hidden" value="14" />
+          <button type="submit" class="btn btn-info btn-product">Add to Wishlist</button>
+        </form>
       </div>
     </div>
     <div class="card text-white bg-dark" style="max-width: 350px;">
@@ -63,14 +68,19 @@
       </a>
       </div>
       <div class="card-body">
-        <h5 class="card-title product-name">Card title</h5>
-        <div class="card-text product-price"><p></p></div>
-        <div class="card-text product-description"><p></p></div>
+        <h5 class="card-title product-name">Blue Ceramic Wall Plate</h5>
+        <div class="card-text product-price"><p>Rs. 1450</p></div>
+        <div class="card-text product-description"><p>Made of glazed blue ceramic, wipe clean with a wet cloth, Dimensions: 34 Long X 25 Wide X 4 High (centimetres), Weight: 1 kg.</p></div>
         <div class="card-text ratings"><p></p></div>
         <div class="card-text reviews"><p></p></div>
-        <div  style="display:none;" class="product-id"><p></p></div>
-        <a href="#" class="btn btn-info btn-product">Add to Cart</a>
-        <a href="#" class="btn btn-info btn-product">Add to Wishlist</a>
+        <form action="/add-to-cart" method="post">
+          <input name="product_id" type="hidden" value="15" />
+          <button type="submit" class="btn btn-info btn-product">Add to Cart</button>
+        </form>
+        <form action="/add-to-wishlist" method="post">
+          <input name="product_id" type="hidden" value="15" />
+          <button type="submit" class="btn btn-info btn-product">Add to Wishlist</button>
+        </form>
       </div>
     </div>
 </div>

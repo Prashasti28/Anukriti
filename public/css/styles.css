@@ -101,6 +101,62 @@
 .btn-product{
   margin-bottom: 10px;
 }
+
+.main-box{
+  max-width: 70%;
+  border: 1px solid black;
+  padding: 30px;
+  margin: 2% auto 0 auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-box table{
+    width:100%;
+    border-collapse: collapse;
+}
+.main-box .cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-box th{
+    text-align: left;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 23px;
+}
+.main-box td a{
+    color: #2fb6fa;
+    font-size: 90%;
+}
+.main-box table tr{
+  margin-right: 20px;
+}
+.main-box td img{
+    width: 200px;
+    height: 200px;
+    margin-right: 45px;
+    border: solid 2px #000000;
+}
+.main-box div{
+    margin: 30px 0px;
+}
+/* .main-box td:last-child{
+    text-align: right;
+}
+.main-box th:last-child{
+    text-align: right;
+} */
+.main-box .total-price{
+    display:flex;
+    justify-content: flex-end;
+    margin: 10px 0px;
+}
+
+
+
+
 /* .carousel-control-next, .carousel-control-prev{
   opacity: 1;
 } */

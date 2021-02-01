@@ -1,0 +1,59 @@
+<%- include('partials/header') %>
+
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+</head>
+
+
+<body class="product-page">
+  <%- include('navbar') %>
+
+
+  <div class="main-box">
+    <h1 style="font-size:35px; margin-top:0;" class="heading">Cart</h1>
+
+<% if (products.length === 0) { %>
+  <div class="text-center" style="margin:0">
+    <p style= "font-size: 150%; text-align: center; margin: 5% 0 0 0;">Cart is empty!</p><br>
+    <a href="/catalog" class="btn btn-lg btn-info btn-product">Browse Catalog</a>
+    </div>
+
+<% } else { %>
+
+    <div>
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th style="text-align: right;"">Subtotal</th>
+        </tr>
+<% for(var i=0; i < products.length; i++) { %>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="<%= products[i].item.productImage %>" alt="product image">
+              <div>
+                <p style="margin-bottom: 0px; font-size: 120%;"><%= products[i].item.productName %></p>
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td style="font-size: 120%;"><%= products[i].qty %></td>
+          <td style="font-size: 120%;  text-align: right;">Rs. <%= products[i].itemTotal %></td>
+        </tr>
+<% } %>
+      </table>
+    </div>
+    <div class="total-price">
+      <p style="font-size: 160%; font-weight: 600;">Total: Rs. <%= cart.totalBill %></p>
+    </div>
+    <div style="text-align:right;">
+      <a href="/checkout-cart" class="btn btn-lg btn-info btn-product">Proceed to Checkout</a>
+    </div>
+
+<% } %>
+
+  </div>
+
+  <%- include('partials/footer') %>

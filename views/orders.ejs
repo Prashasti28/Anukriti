@@ -1,0 +1,61 @@
+<%- include('partials/header') %>
+
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+</head>
+
+
+<body class="product-page">
+  <%- include('navbar') %>
+
+
+  <div class="main-box">
+    <h1 style="font-size:35px; margin-top:0;" class="heading">My Orders</h1>
+
+    <% if ((cartsArr.length === 0) || (flag === 0)) { %>
+      <p style= "font-size: 150%; text-align: center; margin-top: 5%;">No orders yet!</p>
+    <% } else { %>
+
+    <% for(var i=0; i < cartsArr.length; i++) { %> <!-- this loop runs for every cart -->
+      <table>
+        <hr style="border-top: 1px solid #b3b3b3;">
+        <tr style="padding-bottom: 20px;">
+          <th style="padding-bottom: 10px;">Product</th>
+          <th>Quantity</th>
+          <th style="text-align: right;">Subtotal</th>
+        </tr>
+              <% for(var j=0; j < cartsArr[i].itemsArr.length; j++) { %>
+                <tr>
+                  <td style="width: 50%;">
+                    <img style="width: 100px;height: 100px;border: solid 1px #000000; text-align:left; margin:0 0 10px 0; display:inline-block;" src="<%= cartsArr[i].itemsArr[j].item.productImage%>">
+                    <p><%= cartsArr[i].itemsArr[j].item.productName %></p>
+                  </td>
+                    <td style="font-size: 120%;"><%= cartsArr[i].itemsArr[j].qty %></td>
+                    <td style="font-size: 120%; text-align:right;">Rs. <%= cartsArr[i].itemsArr[j].itemTotal %></td>
+                </tr>
+              <% } %>
+      </table>
+      <p style= "font-size: 150%; text-align: right; margin:0;">Total Bill:  Rs. <%= cartsArr[i].totalBill %></p>
+    <% } %>
+    <% } %>
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <%- include('partials/footer') %>

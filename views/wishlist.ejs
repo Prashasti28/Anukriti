@@ -1,0 +1,58 @@
+<%- include('partials/header') %>
+
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+</head>
+
+
+<body class="product-page">
+  <%- include('navbar') %>
+
+
+  <div class="main-box" style="max-width: 65%;">
+    <h1 style="font-size:35px; margin-top:0;" class="heading">Wishlist</h1>
+
+    <% if (products.length === 0) { %>
+      <div class="text-center" style="margin:0">
+        <p style= "font-size: 150%; text-align: center; margin: 5% 0 0 0;">Wishlist is empty!</p><br>
+        <a href="/catalog" class="btn btn-lg btn-info btn-product">Browse Catalog</a>
+        </div>
+
+    <% } else { %>
+
+    <div>
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Description</th>
+          <th style="text-align: right;">Price</th>
+        </tr>
+        <% for(var i=0; i < products.length; i++) { %>
+          <tr>
+            <td>
+              <div class="cart-info">
+                <img src="<%= products[i].productImage %>" alt="product image">
+              </div>
+            </td>
+            <td>
+              <p style="margin-bottom: 0px; font-size: 130%;"><%= products[i].productName %></p><br>
+              <p style="width: 80%;"><%= products[i].productDescription %></p>
+              <form action="/move-to-cart" method="post">
+                <input name="product_id" type="hidden" value="<%= products[i].productID %>" />
+                <button type="submit" class="btn btn-info btn-product">Move to Cart</button>
+              </form>
+              <form action="/remove-from-wishlist" method="post">
+                <input name="product_id" type="hidden" value="<%= products[i].productID %>" />
+                <button type="submit" class="btn btn-info btn-product">Remove from Wishlist</button>
+              </form>
+              </td>
+            <td style="width: 20%; text-align: right;">Rs. <%= products[i].productPrice %> </td>
+          </tr>
+        <% } %>
+      </table>
+    </div>
+
+<% } %>
+
+  </div>

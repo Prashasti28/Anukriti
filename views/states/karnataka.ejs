@@ -30,14 +30,19 @@
       </a>
       </div>
       <div class="card-body">
-        <h5 class="card-title product-name">Card title</h5>
-        <div class="card-text product-price"><p></p></div>
-        <div class="card-text product-description"><p></p></div>
+        <h5 class="card-title product-name">Storage Box</h5>
+        <div class="card-text product-price"><p>Rs. 1600</p></div>
+        <div class="card-text product-description"><p>Dimensions: L – 8.5cm, W – 2.5, H – 7cm, Weight: 200 grams, Base Metal: Zinc & Copper, Inlay Material: Pure Silver</p></div>
         <div class="card-text ratings"><p></p></div>
         <div class="card-text reviews"><p></p></div>
-        <div  style="display:none;" class="product-id"><p></p></div>
-        <a href="#" class="btn btn-info btn-product">Add to Cart</a>
-        <a href="#" class="btn btn-info btn-product">Add to Wishlist</a>
+        <form action="/add-to-cart" method="post">
+          <input name="product_id" type="hidden" value="10" />
+          <button type="submit" class="btn btn-info btn-product">Add to Cart</button>
+        </form>
+        <form action="/add-to-wishlist" method="post">
+          <input name="product_id" type="hidden" value="10" />
+          <button type="submit" class="btn btn-info btn-product">Add to Wishlist</button>
+        </form>
       </div>
     </div>
     <div class="card text-white bg-dark" style="max-width: 350px;">
@@ -60,14 +65,19 @@
       </a>
       </div>
       <div class="card-body">
-        <h5 class="card-title product-name">Card title</h5>
-        <div class="card-text product-price"><p></p></div>
-        <div class="card-text product-description"><p></p></div>
+        <h5 class="card-title product-name">Bidri Bangles</h5>
+        <div class="card-text product-price"><p>Rs. 1200</p></div>
+        <div class="card-text product-description"><p>Dimensions: L – 2.5 inches, W – 0.6 inches, Weight: 50-55 grams, Base Metal: Zinc & Copper, Inlay Material: Pure Silver</p></div>
         <div class="card-text ratings"><p></p></div>
         <div class="card-text reviews"><p></p></div>
-        <div  style="display:none;" class="product-id"><p></p></div>
-        <a href="#" class="btn btn-info btn-product">Add to Cart</a>
-        <a href="#" class="btn btn-info btn-product">Add to Wishlist</a>
+        <form action="/add-to-cart" method="post">
+          <input name="product_id" type="hidden" value="11" />
+          <button type="submit" class="btn btn-info btn-product">Add to Cart</button>
+        </form>
+        <form action="/add-to-wishlist" method="post">
+          <input name="product_id" type="hidden" value="11" />
+          <button type="submit" class="btn btn-info btn-product">Add to Wishlist</button>
+        </form>
       </div>
     </div>
 </div>

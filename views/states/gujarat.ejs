@@ -11,16 +11,21 @@
 <p class="category-description">Sankheda furniture is colourful teak wood furniture of Gujarat, India, treated with lacquer and painted in traditional bright shades of maroon and gold. It is made in Sankheda village and hence its name.</p>
 <div class="card-deck" style="align-items: center;">
     <div class="card text-white bg-dark" style="max-width: 350px;">
-      <img src="https://www.sankhedafurniture.com/images_temp/temple/temple2.jpg" class="d-block product-image">
+      <img src="https://productimages.withfloats.com/tile/5e04f76d2a9c910001e03262.jpg" class="d-block product-image">
       <div class="card-body">
-        <h5 class="card-title product-name">Card title</h5>
-        <div class="card-text product-price"><p></p></div>
-        <div class="card-text product-description"><p></p></div>
+        <h5 class="card-title product-name">Sankheda Temple</h5>
+        <div class="card-text product-price"><p>Rs. 800</p></div>
+        <div class="card-text product-description"><p>Made of Brown Sheesham Wood, Dimensions : 22.86 x 15.24 x 53.34 cm; 2 Kilograms</p></div>
         <div class="card-text ratings"><p></p></div>
         <div class="card-text reviews"><p></p></div>
-        <div  style="display:none;" class="product-id"><p></p></div>
-        <a href="#" class="btn btn-info btn-product">Add to Cart</a>
-        <a href="#" class="btn btn-info btn-product">Add to Wishlist</a>
+        <form action="/add-to-cart" method="post">
+          <input name="product_id" type="hidden" value="4" />
+          <button type="submit" class="btn btn-info btn-product">Add to Cart</button>
+        </form>
+        <form action="/add-to-wishlist" method="post">
+          <input name="product_id" type="hidden" value="4" />
+          <button type="submit" class="btn btn-info btn-product">Add to Wishlist</button>
+        </form>
       </div>
     </div>
     <div class="card text-white bg-dark" style="max-width: 350px;">
@@ -43,14 +48,19 @@
       </a>
       </div>
       <div class="card-body">
-        <h5 class="card-title product-name">Card title</h5>
-        <div class="card-text product-price"><p></p></div>
-        <div class="card-text product-description"><p></p></div>
+        <h5 class="card-title product-name">Wooden Chowki (Set of 3)</h5>
+        <div class="card-text product-price"><p>Rs. 650</p></div>
+        <div class="card-text product-description"><p>Dimensions: (B)12x12x3 (M)10x10x3 (S)8x8x3 inch, Weight: 3.080 kg</p></div>
         <div class="card-text ratings"><p></p></div>
         <div class="card-text reviews"><p></p></div>
-        <div  style="display:none;" class="product-id"><p></p></div>
-        <a href="#" class="btn btn-info btn-product">Add to Cart</a>
-        <a href="#" class="btn btn-info btn-product">Add to Wishlist</a>
+        <form action="/add-to-cart" method="post">
+          <input name="product_id" type="hidden" value="5" />
+          <button type="submit" class="btn btn-info btn-product">Add to Cart</button>
+        </form>
+        <form action="/add-to-wishlist" method="post">
+          <input name="product_id" type="hidden" value="5" />
+          <button type="submit" class="btn btn-info btn-product">Add to Wishlist</button>
+        </form>
       </div>
     </div>
 </div>

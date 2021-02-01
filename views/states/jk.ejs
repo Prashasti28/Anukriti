@@ -13,27 +13,37 @@
     <div class="card text-white bg-dark" style="max-width: 350px;">
       <img src="https://cdn.shopify.com/s/files/1/0067/4978/2119/products/KB3107_1024x1024.jpg?v=1598276946" class="d-block product-image">
       <div class="card-body">
-        <h5 class="card-title product-name">Card title</h5>
-        <div class="card-text product-price"><p></p></div>
-        <div class="card-text product-description"><p></p></div>
+        <h5 class="card-title product-name">Wooden Boat</h5>
+        <div class="card-text product-price"><p>Rs. 900</p></div>
+        <div class="card-text product-description"><p>Dimensions: 50.8 x 11.4 x 15.2 Centimeters, Weight: 0.8 Kilograms, Eco-Friendly</p></div>
         <div class="card-text ratings"><p></p></div>
         <div class="card-text reviews"><p></p></div>
-        <div  style="display:none;" class="product-id"><p></p></div>
-        <a href="#" class="btn btn-info btn-product">Add to Cart</a>
-        <a href="#" class="btn btn-info btn-product">Add to Wishlist</a>
+        <form action="/add-to-cart" method="post">
+          <input name="product_id" type="hidden" value="8" />
+          <button type="submit" class="btn btn-info btn-product">Add to Cart</button>
+        </form>
+        <form action="/add-to-wishlist" method="post">
+          <input name="product_id" type="hidden" value="8" />
+          <button type="submit" class="btn btn-info btn-product">Add to Wishlist</button>
+        </form>
       </div>
     </div>
     <div class="card text-white bg-dark" style="max-width: 350px;">
       <img src="https://cdn.shopify.com/s/files/1/0067/4978/2119/products/kb10422_1_1024x1024.jpg?v=1598293388" class="d-block product-image">
       <div class="card-body">
-        <h5 class="card-title product-name">Card title</h5>
-        <div class="card-text product-price"><p></p></div>
-        <div class="card-text product-description"><p></p></div>
+        <h5 class="card-title product-name">Natural Marble Stone Soap Dish</h5>
+        <div class="card-text product-price"><p>Rs. 850</p></div>
+        <div class="card-text product-description"><p>Dimension : 13cm x 2.6cm. Suitable for all size of soaps. Weight: 500gms</p></div>
         <div class="card-text ratings"><p></p></div>
         <div class="card-text reviews"><p></p></div>
-        <div  style="display:none;" class="product-id"><p></p></div>
-        <a href="#" class="btn btn-info btn-product">Add to Cart</a>
-        <a href="#" class="btn btn-info btn-product">Add to Wishlist</a>
+        <form action="/add-to-cart" method="post">
+          <input name="product_id" type="hidden" value="9" />
+          <button type="submit" class="btn btn-info btn-product">Add to Cart</button>
+        </form>
+        <form action="/add-to-wishlist" method="post">
+          <input name="product_id" type="hidden" value="9" />
+          <button type="submit" class="btn btn-info btn-product">Add to Wishlist</button>
+        </form>
       </div>
     </div>
 </div>
