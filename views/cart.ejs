@@ -35,7 +35,10 @@
               <img src="<%= products[i].item.productImage %>" alt="product image">
               <div>
                 <p style="margin-bottom: 0px; font-size: 120%;"><%= products[i].item.productName %></p>
-                <a href="">Remove</a>
+                <form action="/remove-from-cart" method="post">
+                  <input name="product_id" type="hidden" value="<%= products[i].item.productID %>" />
+                  <button type="submit" class="btn btn-sm btn-info btn-product">Remove from Cart</button>
+                </form>
               </div>
             </div>
           </td>

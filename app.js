@@ -274,6 +274,14 @@ app.post("/add-to-cart", checkAuthentication, function (req, res){
   });
 });
 
+app.post("/remove-from-cart", checkAuthentication, function (req, res){
+  productID = req.body.product_id;
+  userID = req.user._id;
+  removeFromCart(userID, productID, function(){
+    res.redirect("/cart");
+  });
+});
+
 app.post("/add-to-wishlist", checkAuthentication, function (req, res){
   productID = req.body.product_id;
   userID = req.user._id;
@@ -396,8 +404,23 @@ function removeFromWishlist (userID, productId, callback){
     callback();
 }
 
-
-
+function removeFromCart (userID, productId, callback){
+  User.findById( userID, function(err, user){
+    cart = user.cart;
+    itemsArr = cart.itemsArr;
+    for (var i=0; i < itemsArr.length; i++){
+      if (productId === itemsArr[i].item.productID){
+        qty = itemsArr[i].qty;
+        itemTotal = itemsArr[i].itemTotal;
+        itemsArr.splice(i,1);
+        cart.totalItemQuantity -= qty;
+        cart.totalBill -= itemTotal;
+        user.save()
+      }
+    }
+  });
+  callback();
+}
 
 function emptyCart(userID) {
   User.findByIdAndUpdate( userID, { cart: {itemsArr: [], totalItemQuantity: 0, totalBill: 0} } ,function(err){
@@ -406,8 +429,6 @@ function emptyCart(userID) {
     }
   });
 }
-
-
 
 function checkoutCart(userID) {
   User.findById( userID, function( err, user){
@@ -430,19 +451,6 @@ function checkoutCart(userID) {
   }
 });
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
